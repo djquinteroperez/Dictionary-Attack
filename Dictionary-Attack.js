@@ -15,5 +15,5 @@ window.onload = init;
 /* ADD YOUR CODE BELOW */
 
 function checkPassword() {
-document.getElementbyId("results");
+document.getElementbyId("pw").value;
 }
