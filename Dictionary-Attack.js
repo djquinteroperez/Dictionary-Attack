@@ -17,7 +17,7 @@ window.onload = init;
 function checkPassword() {
   var password = document.getElementById("pw").value;
   for (i = 0; i < wordsList.length; i++) {
-    if (wordList[i] == password){
+    if (wordsList[i] == password){
       document.getElementById("results").innerHTML = "Change the password";
       break;
     }
